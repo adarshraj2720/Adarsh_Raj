@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* custum css */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  background: linear-gradient(
+      to bottom,
+      rgba(21, 22, 51),
+      rgba(55, 47, 170, 0.8)
+    ),
+    no-repeat;
+  color: #fff;
+  height: 100vh;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex1{
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+.main-card {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2rem;
+}
+header {
+  padding: 2rem 0;
+}
+
+
+.fa-calendar-week{
+  background-color: #9d64e0;
+  color: white;
+  padding: 4px;
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+h2{
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+}
+.five{
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.button {
+  background-color: #ecac40;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 0.7rem;
+  cursor: pointer;
+  padding: 10px 26px;
+  margin-top: 2rem;
+  border: 0;
+}
+
+.main-card h2 {
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+.main-card h3 {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+.main-card h4 {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+span {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.small-card {
+  width: 40%;
+  margin: 0 auto;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgba(161, 161, 175, 0.164);
+  line-height: 1.7;
+  margin-top: 2rem;
+  border-radius: 0.6rem;
+  background: linear-gradient(
+      to bottom,
+      rgba(179, 175, 235, 0.048) rgba(206, 207, 241, 0.15)
+    ),
+    no-repeat;
+}
+.small-card h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.small-card h4 {
+  text-align: start;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.small-card p {
+  text-align: start;
+  font-size: 0.6rem;
+  font-weight: 300;
+  background-color: #161645e5;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
